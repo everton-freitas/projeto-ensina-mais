@@ -10,37 +10,83 @@
 
 @media screen and (max-width: 768px){
 
+
     body, html {
-        width: 100%;
+        display: block;
+        margin: auto;
+        margin: 0px;
+        background-attachment: fixed;
     }
 
     #container {
-        top: 250px;
-        width: 90vw;
-        margin: auto;
+        margin: 0px;
+        position: relative;
+        display: block;
+        top: 225px;
+        width: 340px;
         border-radius: 20px;
+        max-height: 400px;
     }
 
+    
+
     .input {
-        width: 300px;
+        width: 305px;
+        height: 32px;
+        padding: 0px 10px;
     }
 
     #text {
-        width: 274px;
+        width: 280px;
+        height: 30px;
+        padding: 0px 10px;
     }
 
     #entrar {
         width: 280px;
+        height: 15px;
+    }
+
+
+
+
+    #desenvolvido {
+        position: relative;
+        display: block;
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+
+    #sete {
+        padding-bottom: 200px;
+    }
+    
+    #esqueceu {
+        position: relative;
+        top: -10px;
+    }
+
+    #logo-login-educaplus {
+        width: 125px;
+    }
+
+    .conta {
+        position: relative;
+        top: -15px;
     }
 
     .equipe {
-        width: 200px;
     }
 
-    #equipe {
+    #cadastro {
         position: relative;
-        top: -123px;
+        top: 1px;
     }
 
+    .sessao {
+        position: relative;
+        top: -5px;
+        margin-bottom: 15px;
+    }
 
 }
