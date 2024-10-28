@@ -25,7 +25,12 @@ header > img {
     
 }
 
-header > a {
+menu {
+    margin-left: -33px;
+    display: flex;
+}
+
+header a {
     color: white;
     text-decoration: none;
     font-size: 20px;
