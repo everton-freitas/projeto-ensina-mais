@@ -8,20 +8,28 @@ letter-spacing: 0px;
 
 }
 
-#container {
+
+#main-container {
     position: absolute;
-    top: 34.2%;
+    top: 44.2%;
     left: 50%;
 
     translate: -50% -50%;
 }
 
-#desenvolvido {
-    position: absolute;
-    top: 73%;
-    left: 50%;
 
-    translate: -50% -50%;
+#desenvolvido {
+    position: relative;
+    margin-top: 720px;
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: none;
 }
 
 .input {
@@ -204,4 +212,12 @@ footer > a {
 
 #l {
     text-decoration: none;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: none;
 }

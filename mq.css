@@ -8,7 +8,7 @@
     TV: acima de 1200px
     */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 600px){
 
 
     body, html {
@@ -18,32 +18,40 @@
         background-attachment: fixed;
     }
 
+    #main-container {
+        margin-top: 0px;
+        position: absolute;
+    left: 50%;
+    max-height: 400px;
+    width: 360px;
+    width: 95%;
+    position: relative;
+    background-attachment: fixed;
+    margin-top: 220px;
+    }
     #container {
-        margin: 0px;
-        position: relative;
-        display: block;
-        top: 225px;
-        width: 340px;
+        margin-top: 0px;
         border-radius: 20px;
         max-height: 400px;
+        max-width: 360px;
+        display: block;
     }
-
     
 
     .input {
-        width: 305px;
+        width: 90%;
         height: 32px;
         padding: 0px 10px;
     }
 
     #text {
-        width: 280px;
+        width: 83%;
         height: 30px;
         padding: 0px 10px;
     }
 
     #entrar {
-        width: 280px;
+        width: 83.5%;
         height: 15px;
     }
 
@@ -53,7 +61,7 @@
     #desenvolvido {
         position: relative;
         display: block;
-        margin-top: 40px;
+        margin-top: 10px;
         margin-bottom: 100px;
     }
 
@@ -75,8 +83,6 @@
         top: -15px;
     }
 
-    .equipe {
-    }
 
     #cadastro {
         position: relative;
@@ -90,3 +96,92 @@
     }
 
 }
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+
+    body, html {
+        display: block;
+        margin: auto;
+        margin: 0px;
+        background-attachment: fixed;
+    }
+    #main-container {
+        position: absolute;
+        top: 34.2%;
+        left: 50%;
+        min-width: 380px;
+
+    
+        translate: -50% -50%;
+    }
+
+    #container {
+        border-radius: 20px;
+        min-width: 360px;
+
+        max-height: 400px;
+        max-width: 400px;
+    }
+
+
+
+    #desenvolvido {
+        position: relative;
+        margin-top: 720px;
+        text-align: center;
+    }
+    
+
+    .input {
+        width: 90%;
+        height: 32px;
+        padding: 0px 10px;
+    }
+
+    #text {
+        width: 83%;
+        height: 30px;
+        padding: 0px 10px;
+    }
+
+    #entrar {
+        width: 83.5%;
+        height: 15px;
+    }
+
+
+
+    #sete {
+        padding-bottom: 200px;
+    }
+    
+    #esqueceu {
+        position: relative;
+        top: -10px;
+    }
+
+    #logo-login-educaplus {
+        width: 125px;
+    }
+
+    .conta {
+        position: relative;
+        top: -15px;
+    }
+
+
+    #cadastro {
+        position: relative;
+        top: 1px;
+    }
+
+    .sessao {
+        position: relative;
+        top: -5px;
+        margin-bottom: 15px;
+    }
+
+}
+
+
+    
