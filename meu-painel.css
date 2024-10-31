@@ -45,12 +45,27 @@ header a {
 }
 
 #header-icon-bell {
-    margin-left: 53%;
+    position: absolute;
+    left: -70px;
 }
 
 #header-icon {
-    margin-left: 10px;
-    width: 60px;
+    position: absolute;
+    left: -40px;
+}
+
+#arrow-bottom {
+    position: absolute;
+    left: 20px;
+    top: -11px;
+}
+
+#icons {
+    position: absolute;
+    left: 96.8vw;
+    display: flex;
+    align-items: center;
+
 }
 
 header > a > .icon path {

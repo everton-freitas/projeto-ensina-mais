@@ -10,31 +10,43 @@
 
 @media screen and (max-width: 600px){
 
-    menu {
-        display: none;
-    }
-
     img {
+        position: relative;
+        left: -50px;
         width: 120px;
     }
 
-    #menu-icon {
-        position: relative;
-        color: white;
-        font-size: 2em;
+
+    div {
+        width: 95%;
     }
 
-    #header-icon-bell {
-        display: none;
-    }
-
-    #arrow-bottom {
-        display: none;
-    }
     
+    .entre {
+        display: none;
+    }
 
+    .icon {
+        display: none;
+    }
+
+
+
+  
 }
 
 @media screen and (min-width: 600px) and (max-width: 1200px) {
 
+
+
+
+
+
+
+
+
+
 }
+
+
+    

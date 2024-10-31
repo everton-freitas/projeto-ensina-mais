@@ -6,11 +6,13 @@
     <link rel="stylesheet" href="meu-painel.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="mq-meu-painel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
     <title>Minha conta • EducaPlus</title>
 </head>
 <body>
     <header>    
         <img src="logo_completa.educaplus.png" alt="logo-educa-plus">
+        <i id="menu-icon" class="bi bi-list"></i>
         <menu>
             <a class="navegador" href="cursos.html">Cursos</a>
             <a class="navegador" href="sobre.html">Sobre</a>
@@ -18,20 +20,22 @@
             <a class="navegador" href="#">Forum</a>
             <a id="meu-painel" class="navegador" href="#">Meu painel</a>
         </menu>
-        <a id="header-icon-bell" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
-            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901"/>
-          </svg></a>
-        <a id="header-icon" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="icon" viewBox="0 0 16 16">
-            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
-          </svg></a>
-          <a href="index.html">
-              <button id="arrow-bottom" href="/pag.login/login.html">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="a-b" viewBox="0 0 16 16" style="position: relative; left: -7px; top: 2px;">
-                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-                </svg>
-              </button>
-          </a>
+        <span id="icons">
+            <a id="header-icon-bell" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901"/>
+              </svg></a>
+            <a id="header-icon" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="icon" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+              </svg></a>
+              <a href="index.html">
+                  <button id="arrow-bottom" href="/pag.login/login.html">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="a-b" viewBox="0 0 16 16" style="position: relative; left: -7px; top: 2px;">
+                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                    </svg>
+                  </button>
+              </a>
+        </span>
     </header>
     <main>
         <span id="meu-painel-2"><p>MEU PAINEL</p></span>
@@ -133,7 +137,7 @@
                             <p class="text">uso de aspas</p>
                             </span>
                             <span id="conexao">
-                                <img id="curso-pontuacao" src=emblema-pontucao.png" alt="curso-pontuacao">
+                                <img id="curso-pontuacao" src="emblema-pontucao.png" alt="curso-pontuacao">
                                 <p class="text">uso de virgulas</p>
                                 </span>
                                 <span id="conexao">
@@ -143,11 +147,11 @@
                         </div>
                         <div id="segunda-coluna">
                             <span id="conexao">
-                                <img id="curso-pontuacao" src="emblema-financa.png" alt="curso-pontuacao">
+                                <img id="curso-pontuacao" src="embrema-financa.png" alt="curso-pontuacao">
                                 <p class="text">juros simples</p>
                             </span>
                             <span id="conexao">
-                                <img id="curso-pontuacao" src="emblema-financa.png" alt="curso-pontuacao">
+                                <img id="curso-pontuacao" src="embrema-financa.png" alt="curso-pontuacao">
                                 <p class="text">juros compostos</p>
                             </span>
                         </div>

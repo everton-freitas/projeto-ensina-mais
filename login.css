@@ -17,6 +17,28 @@ letter-spacing: 0px;
     translate: -50% -50%;
 }
 
+#envelope {
+    position: absolute;
+    top: 360px;
+    left: 320px;    
+    color: #6c757d;
+}
+
+#text-senha {
+    border: 1px solid #b7b7b7;
+    margin-top: 18px;
+    width: 295px;
+    padding-left: 15px;
+    color: hsl(0, 0%, 38%);
+}
+
+#password {
+    position: absolute;
+    top: 411px;
+    left: 320px;    
+    color: #6c757d;
+}
+
 
 #desenvolvido {
     position: relative;

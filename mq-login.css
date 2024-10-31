@@ -8,7 +8,7 @@
     TV: acima de 1200px
     */
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 770px){
 
 
     body, html {
@@ -19,8 +19,8 @@
     }
 
     #main-container {
-        margin-top: 0px;
-        position: absolute;
+    margin-top: 0px;
+    position: absolute;
     left: 50%;
     max-height: 400px;
     width: 360px;
@@ -51,6 +51,7 @@
     }
 
     #entrar {
+        padding-bottom: 14px;
         width: 83.5%;
         height: 15px;
     }
@@ -83,6 +84,22 @@
         top: -15px;
     }
 
+    #password {
+        display: none;
+    }
+
+    #envelope {
+        display: none;
+    }
+    
+    #text-senha {
+        margin-top: 18px;
+        width: 83%;
+        height: 30px;
+        padding: 0px 10px;
+    }
+
+
 
     #cadastro {
         position: relative;
@@ -95,9 +112,11 @@
         margin-bottom: 15px;
     }
 
+
 }
 
-@media screen and (min-width: 600px) and (max-width: 1200px) {
+
+@media screen and (min-width: 770px) and (max-width: 1200px) {
 
     body, html {
         display: block;
@@ -118,9 +137,30 @@
     #container {
         border-radius: 20px;
         min-width: 360px;
-
         max-height: 400px;
         max-width: 400px;
+    }
+
+
+    #password {
+        position: absolute;
+        top: 381px;
+        left: 330px;    
+        color: #6c757d;
+    }
+
+    #text-senha {
+        position: relative;
+        width: 305px;
+        padding-left: 10px;
+    }
+
+
+    #envelope {
+        position: absolute;
+        top: 331px;
+        left: 330px;    
+        color: #6c757d;
     }
 
 
@@ -147,6 +187,8 @@
     #entrar {
         width: 83.5%;
         height: 15px;
+        padding-bottom: 14px;
+
     }
 
 
