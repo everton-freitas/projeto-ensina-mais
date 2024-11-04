@@ -3,20 +3,33 @@ h2 {
     font-weight: 400;
 }
 
-body {
+body, html {
     background-color: #101423;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 98vw;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 header {
+    margin-top: 0px;
     padding-bottom: 10px;
     display: flex;
-    height: 90px;
     align-items: center;
     margin-bottom: 30px;
+    justify-content: space-between;
 }
 
-header > img {
+nav {
+    margin-top: 0px;
+    border: 1px dotted white;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+header  img {
+    margin-top: 10px;
     height: 70px;
 }
 
@@ -40,31 +53,17 @@ header a {
 #meu-painel {
     color: #0068AD;
     margin: 0px;
-    width: 150px;
     margin: 20px;    
 }
 
-#header-icon-bell {
-    position: absolute;
-    left: -70px;
-}
 
-#header-icon {
-    position: absolute;
-    left: -40px;
-}
 
-#arrow-bottom {
-    position: absolute;
-    left: 20px;
-    top: -11px;
-}
 
 #icons {
-    position: absolute;
-    left: 96.8vw;
     display: flex;
     align-items: center;
+    border: 1px dotted white;
+    justify-content: space-between;
 
 }
 
@@ -73,7 +72,7 @@ header > a > .icon path {
     align-items: center;
 }
 
-div {
+main > div {
     background-color: #2832553d;
     width: 855px;
     height: 570px;
@@ -81,23 +80,37 @@ div {
     border-radius: 15px;
 }
 
+section {
+    margin-top: 7px;
+}
+
 #informacoes {
+    max-width: 855px;
+    width: 88vw;
     padding: 30px;   
     height: 580px;
+    
 }
+
+.juncao {
+    display: flex;
+}
+
+
 
 #primeiras-informacoes {
     display: flex;
+    border: 1px dotted white;
     height: 130px;
-    margin: 0px;
-    background: none;
+    justify-content: space-between;
 }
+
 
 div > p > .icon path {
     fill: white;
 }
 
-#primeiras-informacoes > p {
+#primeiras-informacoes > div >  p {
     color: white;
 }
 
@@ -110,18 +123,16 @@ div > p > .icon path {
     margin-bottom: 10px;
 }
 
-#segundas-informacoes {
-    display: flex;
-    height: 50px;
-    width: 267px;
-}
 
-.icon {
+
+div .icon {
     fill: white;
     margin-left: 3px;
     margin-top: 5px;
     margin-right: 25px;
 }
+
+
 
 #meu-painel-2 {
     text-align: center;
@@ -135,11 +146,10 @@ div > p > .icon path {
     padding-left: 15px;
     padding-right: 15px;
     height: 40px;
-    width: 100px;
+    width: 90px;
     border-radius: 10px;
     display: flex;
     align-items: center;
-    margin-left: 320px;
 }
 #editar-perfil-char {
     color: white;
@@ -163,7 +173,6 @@ div > p > .icon path {
 
 #name-plano {
     color: white;
-    width: 290px;
 }
 
 #terceiras-informacoes {
@@ -175,6 +184,8 @@ div > p > .icon path {
 .informacoes-secundarias {
     color: rgb(255, 255, 255);
     font-size: 17px;
+    display: flex;
+
 }
 #quartas-informacoes {
     height: 50px;
@@ -213,6 +224,7 @@ button {
     color: white;
     font-size: 13px;
     margin-left: 6px;
+    margin-top: 13px;
 }
 
 
@@ -251,13 +263,7 @@ button {
     padding: 5px 7px;
 }
 
-#div2 {
-    display: flex;
-    margin-top: 35px;
-    width: 920px;
-    justify-content: center;
-    margin-bottom: 100px;
-}
+
 
 .botao-final:hover {
     border: 2px solid #545C75; 
@@ -313,12 +319,6 @@ button {
     margin: auto;
 }
 
-#botao-baixo {
-    height: 200px;
-    margin: 10px;
-    
-}
-
 .text {
     padding-top: 10px;
     font-size: 20px;
@@ -328,20 +328,14 @@ button {
     color: white;
 }
 
-#conexao {  
-    display: flex;
-    flex-direction: column;
-    flex: 0 0 25%;
-    max-width: 25%;
-    margin-bottom: 1.5rem;
-    text-align: center;
-}
 
+/*
 #primeira-coluna {
     
     flex-flow: wrap;
     margin-top: 50px;
     display: flex;
+    justify-content: center;
     background: none;
     height: 180px;    
 }
@@ -350,9 +344,11 @@ button {
     margin-top: 50px;
     flex-flow: wrap;
     display: flex;
+    
     background: none;
     height: 180px;    
 }
+*/
 
 #footer {
     margin-top: 100px;
@@ -389,12 +385,37 @@ img {
     color: white;
     border: none;
     width: 17px;
-    margin: 0px;
+    margin-left: 7px;
 }
 
-nav {
-    height: 160px;
+#header-icon {
+    margin-left: 13px;
+    margin-right: 0px;
+}
+
+#itens {
+    display: flex;
+    border: 1px dotted white;
+    flex-flow: row wrap;
+    flex: 0 1 auto;
+    margin-top: 30px;
+    max-width: 860px;
+}
+
+
+#div2 {
+    display: flex;
+    margin-top: 35px;
+    max-width: 920px;
+    width: 95vw;
+    margin-bottom: 100px;
+    border: 1px dotted white;
+    justify-content: center;
+}
+
+
+#conexao {
+    flex-basis: 200px;
     margin-top: 30px;
 }
-
 

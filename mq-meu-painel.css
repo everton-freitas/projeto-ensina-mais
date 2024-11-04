@@ -7,21 +7,104 @@
     Desktop: 992px ate 1200px
     TV: acima de 1200px
     */
+    
+@media screen and (max-width: 660px){
+    #informacoes {
+        width: 74vw;
+    }
+}
 
-@media screen and (max-width: 600px){
+
+
+@media screen and (max-width: 980px){
+    .botao-final {
+        display: none;
+    }
+    
+    .butao {
+        display: none;
+    }
+
+    #mais {
+
+    }
+}
+
+
+@media screen and (max-width: 930px){
+
+    nav {
+        flex-basis: 1000px;
+        justify-content: space-between;
+        align-items: center;
+        height: 95px;
+    }
 
     menu {
         display: none;
     }
 
-    img {
+    div .icon {
+        width: 80px;
+        margin-right: 10px;
+        margin-top: -5px;
+    }
+
+    #ico1  {
+        margin-top: 6px;
+        margin-right: -5px;
+}
+
+#ico2  {
+    margin-top: 4px;
+    margin-right: -5px;
+}
+
+#ico3  {
+    margin-top: 5px;
+    margin-right: -5px;
+}
+
+    #editar-perfil {
+        width: 38px;
+        font-size: 10px;
+    }
+
+    #editar-perfil-char {
+    font-size: 11px;
+}
+    #informacoes {
+        width: 84vw;
+    }
+
+    #div2 {
+        width: 90vw;
+    }
+
+    header img {
+        margin-top: 0px;
         width: 120px;
     }
 
+    #name {
+        font-size: 18px;
+    }
+
+    #educabasic {
+        font-size: 15px;
+    }
+
+
     #menu-icon {
-        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
         color: white;
         font-size: 2em;
+    }
+
+    #header-icon {
+        margin-right: 15px;
     }
 
     #header-icon-bell {

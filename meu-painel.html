@@ -11,15 +11,17 @@
 </head>
 <body>
     <header>    
-        <img src="logo_completa.educaplus.png" alt="logo-educa-plus">
-        <i id="menu-icon" class="bi bi-list"></i>
-        <menu>
-            <a class="navegador" href="cursos.html">Cursos</a>
-            <a class="navegador" href="sobre.html">Sobre</a>
-            <a class="navegador" href="#">EducaUltra</a>
-            <a class="navegador" href="#">Forum</a>
-            <a id="meu-painel" class="navegador" href="#">Meu painel</a>
-        </menu>
+        <nav>
+            <img src="logo_completa.educaplus.png" alt="logo-educa-plus">
+            <i id="menu-icon" class="bi bi-list"></i>
+            <menu>
+                <a class="navegador" href="cursos.html">Cursos</a>
+                <a class="navegador" href="sobre.html">Sobre</a>
+                <a class="navegador" href="#">EducaUltra</a>
+                <a class="navegador" href="#">Forum</a>
+                <a id="meu-painel" class="navegador" href="#">Meu painel</a>
+            </menu>
+        </nav>
         <span id="icons">
             <a id="header-icon-bell" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
                 <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2m.995-14.901a1 1 0 1 0-1.99 0A5 5 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901"/>
@@ -41,36 +43,40 @@
         <span id="meu-painel-2"><p>MEU PAINEL</p></span>
         <div id="informacoes">
             <div id="primeiras-informacoes">
-                <p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="icon" viewBox="0 0 16 16">
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
-                      </svg>
-                </p>
-                <span id="name-plano">
-                <p id="name">Gabriel Alves de Oliveira</p>
-                <p id="educabasic">PLANO EDUCABASIC</p>
-                </span>
-                <span id="editar-perfil"><a id="editar-perfil-char" href="#">EDITAR PERFIL</a></span>
-                <p id="pencil"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
-                    <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.5.5 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11z"/>
-                  </svg></p>
+                <div class="juncao">
+                    <p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="icon" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                          </svg>
+                    </p>
+                    <span id="name-plano">
+                    <p id="name">Gabriel Alves de Oliveira</p>
+                    <p id="educabasic">PLANO EDUCABASIC</p>
+                    </span>
+                </div>
+                <div class="juncao">
+                    <span id="editar-perfil"><a id="editar-perfil-char" href="#">EDITAR PERFIL</a></span>
+                    <p id="pencil"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+                        <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.5.5 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11z"/>
+                      </svg></p>
+                </div>
                   
             </div>
             <span class="informacoes-secundarias" id="segundas-informacoes">
-                <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16">
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" id="ico1" viewBox="0 0 16 16">
                     <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
                   </svg></p>
                 <p>nomesobrenome@gmail.com</p>
             </span>
             <span class="informacoes-secundarias" id="terceiras-informacoes">
-                <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16">
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" id="ico2" viewBox="0 0 16 16">
                     <path d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A3 3 0 0 1 3 2.506zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43zM9 3h2.932l.023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0zm6 4v7.5a1.5 1.5 0 0 1-1.5 1.5H9V7zM2.5 16A1.5 1.5 0 0 1 1 14.5V7h6v9z"/>
                     </svg></p>
                 <p id="nascimento">21/10/2004</p>
             </span>
                 <span class="informacoes-secundarias" id="quartas-informacoes">
-                    <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16">
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="icon" viewBox="0 0 16 16" id="ico3">
                         <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864z"/>
                         <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z"/>
                       </svg></p>
@@ -85,7 +91,7 @@
                 <button class="butao">30 DIAS</button>
                 <button class="butao">SEMPRE</button>
                 </span>
-                <nav>
+                <section>
                         <button class="botao-final"><span class="linha-cima">matematica financeira</span><br>
                             <span class="linha-baixo">mat. - questao 12</span></button>
                         <button class="botao-final"><span class="linha-cima">matematica financeira</span><br>
@@ -95,7 +101,6 @@
                         <button class="botao-final"><span class="linha-cima">matematica financeira</span><br>
                             <span class="linha-baixo">mat. - questao 09</span></button>
                 
-                <nav id="segunda-fileira" class="no-bg">
                     <button class="botao-final"><span class="linha-cima">pontuação</span><br>
                         <span class="linha-baixo">port. - questao 07</span></button>
                     <button class="botao-final"><span class="linha-cima">pontuação</span><br>
@@ -109,7 +114,6 @@
                             <path d="M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" fill="white" /> 
                         </svg>
     
-                <div id="ultimo" class="no-bg"></div>
                     <button class="botao-final"><span class="linha-cima">pontuação</span><br>
                         <span class="linha-baixo">port. - questao 02</span></button>
                     <button class="botao-final"><span class="linha-cima"></span><br>
@@ -127,34 +131,33 @@
                     <button class="botoes" id="cursos">Meus cursos
                         <span id="num">2</span>
                     </button>
-                    <div id="primeira-coluna">
-                        <span id="conexao">
-                        <img id="curso-pontuacao" src="emblema-pontucao.png" alt="curso-pontuacao">
-                        <p class="text">uso de reticencias</p>
-                        </span>
-                        <span id="conexao">
+                    <div id="itens">
+                            <span id="conexao">
                             <img id="curso-pontuacao" src="emblema-pontucao.png" alt="curso-pontuacao">
-                            <p class="text">uso de aspas</p>
+                            <p class="text">uso de reticencias</p>
                             </span>
                             <span id="conexao">
                                 <img id="curso-pontuacao" src="emblema-pontucao.png" alt="curso-pontuacao">
-                                <p class="text">uso de virgulas</p>
+                                <p class="text">uso de aspas</p>
                                 </span>
                                 <span id="conexao">
                                     <img id="curso-pontuacao" src="emblema-pontucao.png" alt="curso-pontuacao">
-                                    <p class="text">uso de parenteses</p>
+                                    <p class="text">uso de virgulas</p>
+                                    </span>
+                                    <span id="conexao">
+                                        <img id="curso-pontuacao" src="emblema-pontucao.png" alt="curso-pontuacao">
+                                        <p class="text">uso de parenteses</p>
+                                    </span>
+                                <span id="conexao">
+                                    <img id="curso-pontuacao" src="embrema-financa.png" alt="curso-pontuacao">
+                                    <p class="text">juros simples</p>
                                 </span>
-                        </div>
-                        <div id="segunda-coluna">
-                            <span id="conexao">
-                                <img id="curso-pontuacao" src="embrema-financa.png" alt="curso-pontuacao">
-                                <p class="text">juros simples</p>
-                            </span>
-                            <span id="conexao">
-                                <img id="curso-pontuacao" src="embrema-financa.png" alt="curso-pontuacao">
-                                <p class="text">juros compostos</p>
-                            </span>
-                        </div>
+                                <span id="conexao">
+                                    <img id="curso-pontuacao" src="embrema-financa.png" alt="curso-pontuacao">
+                                    <p class="text">juros compostos</p>
+                                </span>
+                            </div>
+                    </div>
                 </span>
                 </div>
             </div>
