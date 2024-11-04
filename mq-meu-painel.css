@@ -10,6 +10,11 @@
     
 @media screen and (max-width: 660px){
 
+    #informacoes {
+        height: 470px;
+
+    }
+
 
     #primeiras-informacoes {
         display: flex;
@@ -109,12 +114,11 @@
     #editar-perfil {
         width: 38px;
         font-size: 10px;
-        margin-top: 17px;
+        margin-top: 13px;
     }
 
     #pencil {
-        margin-right: 7px;
-        margin-top: 27px;
+        display: none;
     }
 
     #editar-perfil-char 
@@ -123,6 +127,13 @@
         margin-right: 10px;
         margin-top: -5px;
     }
+
+    h2 {
+        margin-left: 20px;
+    }
+
+    #icons {
+}
 
     #ico1  {
         margin-top: 5px;
@@ -140,6 +151,7 @@
 }
 
     #editar-perfil {
+        margin-right: 9px;
         width: 38px;
         font-size: 10px;
     }
@@ -177,6 +189,14 @@
     flex: 0 1 auto;
 }
 
+.conexao {
+    display: none;
+}
+
+#itens {
+    display: none;
+}
+
 
 
 }
@@ -192,13 +212,33 @@
         display: none;
     }
 
-    #mais {
-
+    #i-arrow::before {
+        background-color: #ffffff;
+        border-radius: 50%;
+        margin-left: 25px;
     }
+
+    #i-arrow {
+        color: #101423;
+        font-size: 40px;
+        transition: color 0.3s ease, background-color 0.3s ease; /* Transição suave */
+    }
+
+    #i-arrow:hover {
+        color: #ffffff; /* Cor da seta no hover (azul escuro) */
+        background-color: #1a1a40; /* Cor do círculo no hover (branca) */
+                border-radius: 50%;
+    }
+
+
 }
 
 
 @media screen and (min-width: 661px) and (max-width: 930px){
+
+    #informacoes {
+        height: 100%;
+    }
 
     nav {
         flex-basis: 1000px;
@@ -238,6 +278,7 @@
 }
 
     #editar-perfil {
+
         width: 38px;
         font-size: 10px;
     }
@@ -287,6 +328,9 @@
         display: none;
     }
     
+    .conexao {
+        display: none;
+    }
 
 }
 

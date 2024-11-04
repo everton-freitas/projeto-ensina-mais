@@ -22,7 +22,6 @@ header {
 
 nav {
     margin-top: 0px;
-    border: 1px dotted white;
     display: flex;
     text-align: center;
     justify-content: space-around;
@@ -62,7 +61,6 @@ header a {
 #icons {
     display: flex;
     align-items: center;
-    border: 1px dotted white;
     justify-content: space-between;
 
 }
@@ -100,7 +98,6 @@ section {
 
 #primeiras-informacoes {
     display: flex;
-    border: 1px dotted white;
     height: 130px;
     justify-content: space-between;
 }
@@ -416,7 +413,6 @@ img {
     max-width: 920px;
     width: 95vw;
     margin-bottom: 100px;
-    border: 1px dotted white;
     justify-content: center;
 }
 
