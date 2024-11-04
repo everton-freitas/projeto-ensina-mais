@@ -9,9 +9,176 @@
     */
     
 @media screen and (max-width: 660px){
-    #informacoes {
-        width: 74vw;
+
+
+    #primeiras-informacoes {
+        display: flex;
+        width: 87vw;
+        padding: 0px;
+        justify-content: space-between;
+        position: relative;
+        left: 8px;
     }
+
+    
+
+    #informacoes {
+        width: 90vw;
+        padding: 0px;
+    }
+
+    #div2 {
+        width: 90vw;
+    }
+
+
+
+    main > span > p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    menu {
+        display: none;
+    }
+
+    #menu-icon {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: white;
+        font-size: 2em;
+    }
+
+    nav {
+        flex-basis: 1000px;
+        justify-content: space-between;
+        align-items: center;
+        height: 95px;
+    }
+
+    #header-icon {
+        margin-right: 15px;
+    }
+
+    #header-icon-bell {
+        display: none;
+    }
+
+    #arrow-bottom {
+        display: none;
+    }
+
+    
+    header img {
+        margin-top: 0px;
+        width: 120px;
+    }
+
+
+    #name {
+        font-size: 15px;
+    }
+
+    #educabasic {
+        font-size: 15px;
+    }
+
+    
+    div .icon {
+        width: 50px;
+        margin-right: 10px;
+        margin-top: -20px;
+    }
+
+    #ico1  {
+        margin-top: 5px;
+        margin-right: -5px;
+}
+
+#ico2  {
+    margin-top: 4px;
+    margin-right: -5px;
+}
+
+#ico3  {
+    margin-top: 5px;
+    margin-right: -5px;
+}
+
+    #editar-perfil {
+        width: 38px;
+        font-size: 10px;
+        margin-top: 17px;
+    }
+
+    #pencil {
+        margin-right: 7px;
+        margin-top: 27px;
+    }
+
+    #editar-perfil-char 
+    div .icon {
+        width: 80px;
+        margin-right: 10px;
+        margin-top: -5px;
+    }
+
+    #ico1  {
+        margin-top: 5px;
+        margin-right: -5px;
+}
+
+#ico2  {
+    margin-top: 4px;
+    margin-right: -5px;
+}
+
+#ico3  {
+    margin-top: 5px;
+    margin-right: -5px;
+}
+
+    #editar-perfil {
+        width: 38px;
+        font-size: 10px;
+    }
+
+    #editar-perfil-char {
+    font-size: 11px;
+}
+
+#conquistas2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    width: 100px;
+    flex-flow: row wrap;
+}
+
+#cursos {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    flex-flow: row wrap;
+}
+
+#num {
+    font-size: 12px;
+}
+
+#b-baixo  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 1 auto;
+}
+
+
+
 }
 
 
@@ -31,13 +198,18 @@
 }
 
 
-@media screen and (max-width: 930px){
+@media screen and (min-width: 661px) and (max-width: 930px){
 
     nav {
         flex-basis: 1000px;
         justify-content: space-between;
         align-items: center;
         height: 95px;
+    }
+
+    main > span > p {
+        font-size: 30px;
+        margin-bottom: 30px;
     }
 
     menu {
@@ -51,7 +223,7 @@
     }
 
     #ico1  {
-        margin-top: 6px;
+        margin-top: 5px;
         margin-right: -5px;
 }
 

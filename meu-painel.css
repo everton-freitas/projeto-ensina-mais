@@ -171,6 +171,13 @@ div .icon {
     margin-top: 0px;
 }
 
+#b-baixo  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 1 auto;
+}
+
 #name-plano {
     color: white;
 }
